@@ -125,6 +125,7 @@ public class ATM_Interface
             System.out.println("Enter pin:");
             pin=sc.nextInt();
             map.put(ac,pin);
+            System.out.println("Pin set succesfully...");
         }
         else{
             System.out.println("Invalid input");

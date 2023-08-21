@@ -77,9 +77,9 @@ class OnlineVotingSystem
                         String s2=tf2.getText();
                         if(s1.isEmpty())
                         {JOptionPane.showMessageDialog(new JFrame(),"Please Enter name");}
-                        if(s2.isEmpty())
+                        else if(s2.isEmpty())
                         {JOptionPane.showMessageDialog(new JFrame(),"Please Enter phone no");}
-                        if(map.containsKey(s1) || map.containsValue(s2))
+                        else if(map.containsKey(s1) || map.containsValue(s2))
                         {JOptionPane.showMessageDialog(new JFrame(),"You have already voted!!");}
                         else
                         {
